@@ -1,2 +1,2 @@
 # dev_kdt
-practice + projects
+practice + projects!
