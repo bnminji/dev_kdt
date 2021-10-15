@@ -1,0 +1,22 @@
+:hardbreaks:
+ifndef::snippets[]
+:snippets: ../../../target/generated-snippets
+endif::[]
+
+== 게시판
+
+=== 게시글 작성 (POST "/posts")
+
+.Request
+include::{snippets}/order-save/http-request.adoc[]
+include::{snippets}/order-save/request-fields.adoc[]
+
+.Response
+include::{snippets}/order-save/http-response.adoc[]
+include::{snippets}/order-save/response-fields.adoc[]
+
+=== 게시글 수정 (POST "/posts/{id}")
+
+=== 게시글 단건 조회 (GET "/posts/{id}")
+
+=== 게시글 페이징 조회 (GET "/posts")
