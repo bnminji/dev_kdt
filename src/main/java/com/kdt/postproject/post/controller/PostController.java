@@ -39,12 +39,12 @@ public class PostController {
 
     //    - 게시글 작성 (POST "/posts")
     @PostMapping("/posts")
-    public ApiResponse<Long> save(@RequestBody PostDto postDto){
+    public ApiResponse<PostDto> save(@RequestBody PostDto postDto){
         Long id = postService.save(postDto);
-        return ApiResponse.ok(id);
+        return ApiResponse.ok(postDto);
     }
 
-//        - 게시글 수정 (POST "/posts/{id}")
+    //   - 게시글 수정 (POST "/posts/{id}")
     @PostMapping("/posts/{id}")
     public ApiResponse<PostDto> update(@RequestBody PostDto postDto) throws NotFoundException{
         PostDto updated = postService.update(postDto);
