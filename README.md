@@ -9,7 +9,7 @@
 - **사용 기술** : SpringBoot, MySQL
 - **주요 내용** 
   시스템 구성도 
- ![프로젝트 주요 기능.png](https://github.com/prgrms-be-devcourse/BEDV1_StayB/blob/9bf5b92b553b1148b9dc2543ffe411f910fb4a1b/img/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%A3%BC%EC%9A%94%20%EA%B8%B0%EB%8A%A5.png)
+ ![시스템구성도.png](https://github.com/bnminji/dev_kdt/blob/cc72c622f910c552b80cbb6d9bd26ddff72e3bac/img/%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EA%B5%AC%EC%84%B1%EB%8F%84.png)
 
   **관리자**
   - 상품 등록/조회
