@@ -8,7 +8,8 @@
 - **진행 기간** : 21.09.13~21.09.15
 - **사용 기술** : SpringBoot, MySQL
 - **주요 내용** 
-  시스템 구성도 
+  시스템 구성도
+  
  ![시스템구성도.png](https://github.com/bnminji/dev_kdt/blob/cc72c622f910c552b80cbb6d9bd26ddff72e3bac/img/%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EA%B5%AC%EC%84%B1%EB%8F%84.png)
 
   **관리자**
